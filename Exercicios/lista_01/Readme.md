@@ -5,6 +5,8 @@
 Crie uma função que receba uma lista de números como parâmetro e retorne o 
 maior número da lista. 
 
+teste
+
 ## Exercício 2
 
 Desenvolva uma função que receba um número como parâmetro e verifique se 
