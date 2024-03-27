@@ -9,20 +9,15 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
     idade: do tipo number, representando a idade do usuário.
     email: do tipo string, representando o endereço de e-mail do usuário.
     isAtivo: do tipo boolean, representando se o usuário está ativo ou não.
-    
-    */
 
-// ---------------------------------------------------------------------------
-    
-    // let nomeCompleto : string;
-    // let idade : number;
-    // let email : string;
-    // let isAtivo : boolean;
+*/
 
-// ----------------------------------------------------------------------------
 
-/* 
-   2 -Crie um objeto usuario com as seguintes propriedades:
+
+
+/*
+
+2 -Crie um objeto usuario com as seguintes propriedades:
 
     nome: string, representando o primeiro nome do usuário.
     sobrenome: string, representando o sobrenome do usuário.
@@ -34,30 +29,7 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
 
 */
 
-// ------------------------------------------------------------------------
 
-type Usuario = {
-    nome: string;
-    sobrenome : string;
-    idade : number;
-}
-
-type Contato = Usuario & {
-    email : string;
-    telefone : string;
-}
-
-let usuario : Contato = {
-    nome: 'marcus',
-    sobrenome: 'lara',
-    idade: 29,
-    email: 'marcus.lara@hotmail.com',
-    telefone: '15996663288'
-}
-
-console.log(usuario);
-
-// --------------------------------------------------------------------------
 /*
 
 Exercício:
@@ -69,13 +41,7 @@ Precisamos armazenar informações sobre diferentes produtos disponíveis na loj
     nomeProduto: do tipo string, representando o nome de um produto.
     preco: do tipo number, representando o preço do produto.
     disponivel: do tipo boolean, representando se o produto está disponível em estoque ou não.
-
 */
-
-
-let nomeProduto : string = 'TV';
-let preco : number = 2500.00;
-let disponivel : boolean = true;
 
 
 
@@ -90,19 +56,3 @@ let disponivel : boolean = true;
     Em seguida, imprima todas as variáveis e propriedades do objeto produto usando console.log.
 
 */
-
-type Produto = {
-    nome : string;
-    preco : number;
-    estoque : number;
-    categorias : string []
-}
-
-let produto1 : Produto = {
-    nome: 'Tv',
-    preco: 2500.00,
-    estoque: 10,
-    categorias: ['Eletrodomestico']
-}
-
-console.log(produto1);

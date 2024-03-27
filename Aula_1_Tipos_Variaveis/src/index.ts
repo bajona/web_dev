@@ -2,6 +2,8 @@
 let idade: number = 25;
 let altura: number = 1.75;
 
+console.log(idade)
+
 // Tipo string para texto
 let nome: string = "João";
 let sobrenome: string = 'Silva';
@@ -15,7 +17,7 @@ let numeros: number[] = [1, 2, 3, 4, 5];
 let nomes: string[] = ["Maria", "João", "Ana"];
 
 // Tipo tuple para arrays com um número fixo de elementos e tipos definidos
-let pessoa: [string, number] = ["João", 20];
+let pessoa: [string, number] = ["João", 25];
 
 // Tipo any para qualquer tipo de valor (evitar usar quando possível)
 let valorQualquer: any = 10;
@@ -69,7 +71,6 @@ let sequencia = [1, 2, 3, 4, 5];
 // Inferência de tipo para objeto
 let visitante = { nome: "João", idade: 30 };
 // TypeScript infere que pessoa é do tipo { nome: string, idade: number }
-
 
 
 
